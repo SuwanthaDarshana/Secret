@@ -30,7 +30,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://Davinci:davinci99@cluster0.xeqwe86.mongodb.net/Secret", {
+mongoose.connect("mongodb://localhost:27017/secretApp", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
