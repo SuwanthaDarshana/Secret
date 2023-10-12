@@ -1,10 +1,11 @@
+
 body {
-  background-color: #4cddc0;
+  background-color: #E8ECEF;
 }
 
 .centered {
-  padding-top: 200px;
-  text-align: center;
+    padding-top: 200px;
+    text-align: center;
 }
 
 .secret-text {
@@ -12,21 +13,4 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
-}
-
-.card {
-  box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #1a495b;
-  width: 80%;
-  height: auto;
-  margin-top: 4%;
-  border-radius: 10px;
-
-}
-
-#header_anime {
-  padding-top: 10%;
-  font-size: 150%;
-  color: #4cddc0;
-  margin-bottom: 0;
 }
